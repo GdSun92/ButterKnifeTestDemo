@@ -1,4 +1,4 @@
-package com.landicorp.android.test1;
+package com.landicorp.android.test;
 
 import org.junit.Test;
 

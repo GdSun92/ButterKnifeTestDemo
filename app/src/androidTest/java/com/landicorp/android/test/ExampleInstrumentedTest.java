@@ -1,4 +1,4 @@
-package com.landicorp.android.test1;
+package com.landicorp.android.test;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
