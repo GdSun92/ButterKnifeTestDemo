@@ -6,6 +6,9 @@ import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.landicorp.android.uistep.UIStepFactory;
+import com.landicorp.android.uistep.UIStepView;
+
 import butterknife.BindColor;
 import butterknife.BindString;
 import butterknife.BindView;
@@ -28,11 +31,11 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+        UIStepView step1 = UIStepFactory.createSingleStep();
         textView11.setText(text1);
         textView11.setTextColor(red);
         textView22.setTextColor(blue);
         textView22.setText(text2);
-
     }
 
     @OnClick({R.id.button1, R.id.button2})
