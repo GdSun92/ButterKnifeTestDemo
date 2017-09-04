@@ -17,6 +17,7 @@ import butterknife.OnClick;
 import butterknife.OnTextChanged;
 
 public class MainActivity extends BaseActivity {
+
     private final static String TAG = MainActivity.class.getSimpleName();
 
     @BindView(R.id.textView1) TextView textView11;
