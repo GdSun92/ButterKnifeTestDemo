@@ -48,7 +48,7 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.button2:
                 ButterKnife.apply(button, ENABLE, true);
-                toast("this is a button2");
+                toast("this is a button2222");
                 break;
             default:
                 break;
